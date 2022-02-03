@@ -24,9 +24,10 @@ img {
     height: 110px;
     border: 3px solid rgba(180, 146, 52, 0.89);
     border-radius: 5px;
+    margin-bottom: 15px;
 }
 
-.title{
+.title {
 text-align: center;
 font-size: 25px;
 }
@@ -57,7 +58,6 @@ h4{
     box-sizing: border-box;
     display: inline;
     margin: 0;
-    font-family: sans-serif, Georgia, Times, 'Times New Roman', serif;
     font-size: 15px;
 }
 
@@ -87,4 +87,23 @@ button:hover{
     background-color: rgba(180, 146, 52, 0.89);
     color: rgb(238, 246, 252);
 }
+
+
+button:active {
+    border: 2px solid rgb(167, 185, 245);
+    
+}
+
+.underline{
+    display: flex;
+    border-top: 4px solid rgba(180, 146, 52, 0.89);
+    margin: 10px auto;
+    width: 70px;
+    
+}
+
+
+
+
+
 

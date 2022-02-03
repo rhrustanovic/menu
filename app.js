@@ -68,6 +68,23 @@ const menu = [
         img: "./images/american classic.jpg",
         desc: `I'm baby woke mlkshk wolf bitters live-edge blue,hammock freegan copper mug whatever cold-pressed`,
     },
+    {
+        id: 9,
+        title: "Quarantine Buddy",
+        category: "Shakes",
+        price: 16.99,
+        img: "./images/quarantine buddy.jpg",
+        desc: `Skateboard fam synth authentic semiotics. 
+        Live-edge lyft af, edison bulb yuccie crucifix microdosing`,
+    },
+    {
+        id: 10,
+        title: "Steak Dinner",
+        category: "Dinner",
+        price: 39.99,
+        img: "./images/steak dinner.jpg",
+        desc: `I'm baby woke mlkshk wolf bitters live-edge blue,hammock freegan copper mug whatever cold-pressed`,
+    },
 ];
 
 
@@ -90,7 +107,7 @@ function displayMenuItems(menuItems) {
         <img src="${item.img}" class="photo" alt=${item.title}>
         <div class="item-info">
             <header>
-                <h4 class="item-title">${item.title}</h4>
+                <h4>${item.title}</h4>
                 <h4 class="price">$${item.price}</h4>
             </header>
             <p class="item-text">
